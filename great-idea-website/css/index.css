@@ -65,6 +65,15 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
+/* page container*/
+
+.container {
+	margin: 0 auto;
+	padding: 5%;
+}
+
 /* header */
 header { 
 	display: inline-block;
@@ -72,41 +81,68 @@ header {
 
 /* main section, (class = started, button, circle) */
 
-.started {
+.started div{
 	display: inline-block;
-	width: 50%;
+	width: 49%;
 }
 
 .button {
+	display: inline-block;
+	width: 20%;
 	border: black solid 2px;
 	margin: 0, auto;
+	text-align: center;
 }
 
 h1 { 
 	text-align: center;
 }
 
-/* sction 2 (class = two) */
+/* section 2 (class = two) */
 
-.two div { display: inline-block;
-	width: 50%;
+.two div { 
+	display: inline-block;
+	width: 49%;
 
 }
+
+.two section{
+	border: black solid 1px; 
+ }
 
 /* image divider section (class = flatimg)*/
 
-.flatimg { width: 100%;
-
+.flatimg div{ 
+	width: 100%;
+	padding: 0;
 }
+
 /* section 3 (class = three) */
+
+.three section{
+	border: black solid 1px;
+}
 
 .three div {
 	display: inline-block;
-	width: 30%;}
+	width: 30%;
+}
+	
 
 /* contact section (class = contact) */
 
 
 
 /* footer */
-.copyright {text-align: center;}
+.copyright {
+	text-align: center;
+}
+
+footer {
+	padding: 5%;
+}
+
+/* etc */
+div {
+	padding: 5% 2%;
+}
