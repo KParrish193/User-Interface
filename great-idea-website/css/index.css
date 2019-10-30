@@ -65,3 +65,48 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* header */
+header { 
+	display: inline-block;
+}
+
+/* main section, (class = started, button, circle) */
+
+.started {
+	display: inline-block;
+	width: 50%;
+}
+
+.button {
+	border: black solid 2px;
+	margin: 0, auto;
+}
+
+h1 { 
+	text-align: center;
+}
+
+/* sction 2 (class = two) */
+
+.two div { display: inline-block;
+	width: 50%;
+
+}
+
+/* image divider section (class = flatimg)*/
+
+.flatimg { width: 100%;
+
+}
+/* section 3 (class = three) */
+
+.three div {
+	display: inline-block;
+	width: 30%;}
+
+/* contact section (class = contact) */
+
+
+
+/* footer */
+.copyright {text-align: center;}
