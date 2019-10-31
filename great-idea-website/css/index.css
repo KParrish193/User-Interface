@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+/* page container*/
+
+.container {
+	margin: 0 auto;
+	padding: 5% 10%;
+	width: 90%;
+	height: 90%;
+}
+
+/* header */
+header { 
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+}
+
+nav {
+	display: inline-block;
+	color: grey;
+	width: 79%;
+	vertical-align: middle;
+}
+
+nav a:link, nav a:visited {
+	color: grey;
+}
+
+ .logo {
+	 width:20%;
+	 display: inline-block;
+	}
+
+nav a { 
+	padding: 0 4% 0 4%;
+}
+/* main section, (classes = started, button, circle) */
+
+.started div {
+	display: inline-block;
+	width: 45%;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+h1 { 
+	text-align: center;
+	font-size: 85px;
+	padding-bottom: 2%;
+}
+
+.button {
+	border: solid black 1px;
+	padding: 1% 9%;
+	display: inline-block;
+	letter-spacing: 1.25;
+	white-space: nowrap;
+}
+
+.circle {
+	margin: auto 0;
+}
+
+/* section 2 (class = two) */
+
+.two div { 
+	display: inline-block;
+	width: 49%;
+	margin: 0 auto;
+}
+
+#two {
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin: 0 auto;
+}
+
+/* image divider section (class = flatimg)*/
+
+.flatimg div { 
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* section 3 (class = three) */
+
+.three div {
+	display: inline-block;
+	width: 33%;
+	margin: 0 auto;
+}
+
+#three {
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin: 0 auto;
+}
+
+/* contact section (class = contact) */
+
+.contact a:link, .contact a:visited {
+	color:black;
+}
+
+.contact {
+	margin: 4% 0 0 0;
+}
+/* footer */
+
+.copyright {
+	text-align: center;
+}
+
+footer {
+	padding: 5%;
+}
+
+/* etc */
+
+div {
+	padding: 4% 2% 4% 0%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
